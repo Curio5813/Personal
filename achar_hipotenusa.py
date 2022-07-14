@@ -1,11 +1,16 @@
-print('='*30)
-print(f'{"Achar o valor da Hipotenusa":^30}')
-print('='*30)
+from math import sqrt
 
-a = float(input('Digite o valor do primeiro cateto: '))
-b = float(input('Digite o valor do segundo cateto: '))
-c = (a**2 + b**2)**(1/2)
-print(f'O valor da Hipotenusa é {c:.2f}')
+def acharHipotenusa():
+    """
+    Esta função retorna o valor da hipotenusa de um triangulo
+    retângulo, dados os dois catetos.
+    :return:
+    """
+    a = float(input('Cateto A: '))
+    b = float(input('Cateto B: '))
+    c = sqrt(a ** 2 + b ** 2)
+    print('')
+    return print(f'Hipotenusa: {c:.1f}')
 
 
-
+acharHipotenusa()
