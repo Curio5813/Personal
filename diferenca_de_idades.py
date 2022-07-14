@@ -1,0 +1,5 @@
+print('Oi, qual o seu nome?')
+nome = str(input('Meu nome é: '))
+print(f'Legal {nome}!!! Quantos anos você tem?')
+anos = int(input('Tenho: '))
+print(f'Haaa!!! Você é {42 - anos} anos mais novo que seu pai')
