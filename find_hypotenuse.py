@@ -1,5 +1,6 @@
 from math import sqrt
 
+
 def acharHipotenusa():
     """
     Esta função retorna o valor da hipotenusa de um triangulo
