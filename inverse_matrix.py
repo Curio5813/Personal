@@ -1,28 +1,35 @@
-def matrizInversa():
+def matrixInversa():
     """
-    Esta função retorna a matriz inversa de uma dada matriz.
+    This function return a inverse matrix from a given matrix.
     :return:
     """
     print('='*60)
-    print(f'{"ACHAR A MATRIZ INVERSA DE UMA MATRIZ QUADRADA":^60}')
+    print("find the inverse matrix of a given matrix".center(60).upper())
     print('='*60)
-    m, l1, l2 = [], [], []
-    print('/n')
-    x = int(input('Qual o tamanho da matriz? '))
+    l1, l2, n = [], [], 0
+    print('')
+    x = int(input('How many rows has the matrix you want to invert? '))
+    y = int(input('How many colums has the matrix you want to invert? '))
     for i in range(x):
-        for k in range(x):
-            num = int(input(f'Qual o valor para linha {i} coluna {k} '))
+        for k in range(y):
+            num = int(input(f"What's the value for {i + 1}st. row and {k + 1}st. colum "))
             l1.append(num)
-    print('/n')
-    print('A matiz é:')
-    print('/n')
-    for i in range(0, len(l1)):
-        for k in range(0, len(l1[i])):
-            print(l1[i][k])
-    print('/n')
-    for i in range(0, len(l1)):
-        for k in range(0, len(l1)):
-            l2.append(l1[i][k])
+        l2.append(l1)
+        l1 = []
+    print('')
+    print('The given matrix is:')
+    for i in range(0, len(l2)):
+        for k in range(0, len(l2[i])):
+            print(l2[i][k], end=' ')
+        print('\n', end='')
+    print('')
+    print(l2)
+    print('The inverse matrix is:')
+    for i in range(0, len(l2)):
+        for k in range(0, len(l2)):
+            print(l2[i + n][k], end=' ')
+        print('\n', end='')
+        n += 1
 
 
-matrizInversa()
+matrixInversa()
