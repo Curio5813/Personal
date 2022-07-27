@@ -11,8 +11,8 @@ def littelJoke():
     print('='*30)
     print("The letter 'A' in my name".center(30))
     print('='*30)
-    n = 3.1450000 # It's a square root sin(log2(60) ** (phi / a))
-    a = (1 + (1 / log2(n - 1)) ** (( n - 2) * pi))
+    n = 3.1450000  # It's a square root sin(log2(60) ** (phi / a))
+    a = (1 + (1 / log2(n - 1)) ** ((n - 2) * pi))
     phi = (1 + sqrt(5)) / 2
     my_dict = {'key1': 'Hello, World!', 'key2': [2, 3, 5, 7, 11], 'key3': a}
     print('')

@@ -39,7 +39,7 @@ def musicalNotes(l1):
             break
         if i > 2 and l1[i] % f == 0:
             n = l1.index(l1[i]) - 3
-            print(f"This key is the note '{notes[n + cont]}' are in the {octv}º oitava "
+            print(f"This key is the note '{notes[n + cont]}' are in the {octv}º octave "
                   f"and your frequency is {l1[i]:.2f} Hz.")
             break
         if i % 12 == 0:
