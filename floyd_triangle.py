@@ -1,4 +1,4 @@
-def trianduloDeFloyd():
+def trianguloDeFloyd():
     """
     This function return the Floyd Triangle as showed below.
 
@@ -21,4 +21,4 @@ def trianduloDeFloyd():
         print('\n', end='')
 
 
-trianduloDeFloyd()
+trianguloDeFloyd()
