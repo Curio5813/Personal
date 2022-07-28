@@ -1,22 +1,21 @@
-print('='*40)
-print(f'{"SABER SE UM NÚMERO É PRIMO":^40}')
-print('='*40)
+from time import time
 
-s = 3
-n = int(input('Digite um número: '))
+start = time()
 
-if n == 2:
-    print(f'O número {n} é primo')
-if n == 3:
-    print(f'O número {n} é primo')
-if n != 2 and n % 2 == 0:
-    print(f'O número {n} não é primo')
-while n > s:
-    if n % 2 == 1 and n % s == 0:
-        print(f'O numero {n} não é primo')
-        break
-    if n % 2 == 1 and n % s != 0:
-        s += 1
-    if n == s and n % s == 0:
-        print(f'O número {n} é primo')
 
+def testIfPrimeNumber():
+    """
+    This function print if a given number is prime or not prime number.
+    :return:
+    """
+    num = int(input("Digit a interger number: "))
+    for i in range(2, 500_000_000 + 1):
+        if num % i == 0 and num != i:
+            return print("This number is not a prime number.")
+        elif num % i == 0 and num == i:
+            return print("It's a prime number!")
+
+
+testIfPrimeNumber()
+end = time()
+print(f"{(end - start):.2f}")
