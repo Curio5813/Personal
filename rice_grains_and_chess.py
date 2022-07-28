@@ -1,29 +1,31 @@
 from time import sleep
+from csv import reader
 
 
 def riceGrainsAndChess():
-    print("Conta a lenda que o xadrez foi inventado na Índia, "
-          "há mais de 1500 anos.")
-    sleep(3)
-    print("O rei ficou tão fascinado com a invenção e as infinitas "
-          "variações de movimentos, que resolveu recompensar o inventor.")
-    sleep(3)
-    print("O rei perguntou: O que você quer de recompensa?")
-    sleep(3)
-    print("Inventor: Quero um grão de arroz para a primeira casa, dois "
-          "grãos para a segunda casa, 4 para a terceira, e assim sucessivamente.")
-    sleep(3)
-    print("Só isso!, o rei retrucou.")
-    sleep(3)
-    print("Então, o rei pediu para os matemáticos do reino fazerem as contas.")
-    sleep(3)
-    print("De Quantos grãos de arroz eram necessários.")
+    """
+    This function print a solution for a finit Geometric Progression.
+    :return:
+    """
+    arq = open("rice_grains_and_chess.csv")
+    pg = reader(arq)
+    pg = list(pg)
+    ls = []
+    for i in range(0, len(pg)):
+        for k in range(0, len(pg[i])):
+            ls.append(pg[i][k])
+    for i in range(0, len(ls)):
+        for k in range(0, len(ls[i])):
+            print(ls[i][k], end="")
+            sleep(0.05)
+        print('\n', end="")
     a = 1
     q = 2
     b = a * q ** (64 - 1)
-    sleep(5)
-    print(f"São necessários {b} grãos de arroz para o preencher as 64 casas do tabuleiro.")
-    sleep(3)
+    sleep(2)
+    print("")
+    print(f"Is needly {b} grain of rice to cover all 64º houses of a \n"
+          f"chessboard.")
 
 
 riceGrainsAndChess()
