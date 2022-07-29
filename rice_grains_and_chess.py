@@ -13,15 +13,13 @@ def riceGrainsAndChess():
     ls = []
     for i in range(0, len(pg)):
         for k in range(0, len(pg[i])):
-            ls.append(pg[i][k])
-    for i in range(0, len(ls)):
-        for k in range(0, len(ls[i])):
-            print(ls[i][k], end="")
-            sleep(0.05)
-        print('\n', end="")
+            for j in range(0, len(pg[i][k])):
+                print(pg[i][k][j], end="")
+                sleep(0.08)
+            print('\n', end="")
     a = 1
     q = 2
-    b = a * q ** (64 - 1)
+    b = a * q ** (64 - 1)  # This is the formula for a finite P.G.
     sleep(2)
     print("")
     print(f"Is needly {b} grain of rice to cover all 64º houses of a \n"
