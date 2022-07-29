@@ -10,7 +10,6 @@ def riceGrainsAndChess():
     arq = open("rice_grains_and_chess.csv")
     pg = reader(arq)
     pg = list(pg)
-    ls = []
     for i in range(0, len(pg)):
         for k in range(0, len(pg[i])):
             for j in range(0, len(pg[i][k])):
