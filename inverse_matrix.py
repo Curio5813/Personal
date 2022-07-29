@@ -16,10 +16,10 @@ def givenMatrix():
         l1 = []
     print("")
     print("The given matrix is: ")
-    for i in range(0, len(l2)):             # This iteration print the matrix
+    for i in range(0, len(l2)):  # This iteration print the matrix
         for k in range(0, len(l2[i])):
-            print(l2[i][k], end=' ')
-        print('\n', end='')
+            print(f"{l2[i][k]:>2}", end=' ')
+        print("\n", end="")
     return l2
 
 
@@ -33,14 +33,14 @@ def inverseMatrix(l2):
     l3, l4 = [], []
     for i in range(0, len(l2[0])):   # This iteration put in a list the inverse matrix.
         for k in range(len(l2)):     # The colums must to be the lines and the lines the colums.
-            l3.append(l2[k][i])      # This avoid the list index error out of range.
+            l3.append(l2[k][i])      # This avoid the index error out of range of the list.
         l4.append(l3)
         l3 = []
     print("")
     print("The inverse matrix is: ")
     for i in range(0, len(l4)):
         for k in range(0, len(l4[i])):
-            print(l4[i][k], end=' ')
+            print(f"{l4[i][k]:>2}", end=" ")
         print("\n", end='')
 
 
