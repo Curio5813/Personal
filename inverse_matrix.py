@@ -31,9 +31,9 @@ def inverseMatrix(l2):
     :return:
     """
     l3, l4 = [], []
-    for i in range(0, len(l2[0])):   # This iteration put in a list the inverse matrix.
-        for k in range(len(l2)):     # The colums must to be the lines and the lines the colums.
-            l3.append(l2[k][i])      # This avoid the index error out of range of the list.
+    for i in range(0, len(l2[0])):  # This iteration put in a list the inverse matrix.
+        for k in range(len(l2)):    # The colums must to be the lines and the lines the colums.
+            l3.append(l2[k][i])     # This avoid the index error out of range of the list.
         l4.append(l3)
         l3 = []
     print("")
