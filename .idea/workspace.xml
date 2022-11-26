@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60308654-b18e-422b-b66c-121201f3170f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/collatz_conjecture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Pessoal (conflicted).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc (conflicted).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace (conflicted).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.csh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/activate.fish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/mandelbrot_set.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/output.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/ovelhas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pi_elevado_a_pi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/teste.py" beforeDir="false" />
-    </list>
+    <list default="true" id="60308654-b18e-422b-b66c-121201f3170f" name="Changes" comment="Updating files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +74,14 @@
       <option name="presentableId" value="Default" />
       <updated>1659997778435</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updating files">
+      <created>1669426836867</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669426836867</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,5 +94,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updating files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating files" />
   </component>
 </project>
