@@ -1,6 +1,6 @@
 # Pessoal
 
-This project is dedicated to learning programming and logic algorithms by solving computing problems. Here a publish some personal ideas about computation problems. 
+This project is dedicated to learning programming and logic algorithms by solving computing problems. Here I publish some personal ideas about computation problems. 
 
 ![](bitcoin8bits.jpg)
 
