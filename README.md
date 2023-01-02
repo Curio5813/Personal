@@ -2,7 +2,7 @@
 
 > Collection of programming problems to practice solving, learn to program and code.
 
-This project is dedicated to learning programming and logic algorithms by solving computing problems.
+This project is dedicated to learning programming and logic algorithms by solving computing problems. Here a publish some personal ideas about computation problems. 
 
 ![](bitcoin8bits.jpg)
 
