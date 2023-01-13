@@ -7,9 +7,10 @@ def mega_sena_probability():
     in a simple game.
     :return:
     """
-    comb = factorial(60) / (factorial(6) * (factorial(60 - 6)))
-    return print(f"{1/comb}%")
+    comb = int(factorial(60) / (factorial(6) * (factorial(60 - 6))))
+    return print(f"Probability from 1 to {comb} millions.")
 
 
 mega_sena_probability()
-print("It's all folks")
+print("")
+print("It's all folks!")
