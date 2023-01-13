@@ -12,3 +12,4 @@ def mega_sena_probability():
 
 
 mega_sena_probability()
+print("It's all folks")
