@@ -7,10 +7,10 @@ def collatz_conjecture():
     num = int(input("Digit a integer positive number: "))
     while num != 1:
         if num % 2 == 0:
-            num /= 2
+            num //= 2
         else:
             num = 3 * num + 1
-        lc.append(int(num))
+        lc.append(num)
         cont += 1
     print(cont)
     print(*lc)
