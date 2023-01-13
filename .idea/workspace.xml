@@ -46,7 +46,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mega_sena_porbability">
+  <component name="RunManager" selected="Python.mega_sena_probability">
     <configuration name="compound_capitalization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pessoal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mega_sena_porbability" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mega_sena_probability" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pessoal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,7 +143,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mega_sena_porbability.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mega_sena_probability.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +154,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mega_sena_porbability" />
+        <item itemvalue="Python.mega_sena_probability" />
         <item itemvalue="Python.find_hypotenuse" />
         <item itemvalue="Python.factorial" />
         <item itemvalue="Python.compound_capitalization" />
