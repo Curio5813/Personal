@@ -14,8 +14,6 @@ def collatz_conjecture():
         cont += 1
     print(cont)
     print(*lc)
-    lc.sort()
-    print(*lc)
 
 
 collatz_conjecture()
