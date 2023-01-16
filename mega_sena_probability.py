@@ -8,7 +8,7 @@ def mega_sena_probability():
     :return:
     """
     comb = int(factorial(60) / (factorial(6) * (factorial(60 - 6))))
-    return print(f"Probability from 1 to {comb} millions.")
+    return print(f"Probability form 1 to {comb} millions.")
 
 
 mega_sena_probability()

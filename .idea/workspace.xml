@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60308654-b18e-422b-b66c-121201f3170f" name="Changes" comment="Updating files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mega_sena_probability.py" beforeDir="false" afterPath="$PROJECT_DIR$/mega_sena_probability.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
