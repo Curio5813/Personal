@@ -10,7 +10,7 @@ def trianguloDeFloyd():
     16 17 18 19 20 21
     :return:
     """
-    l, a, b, n = [], 1, 2, 2
+    a, b, n = 1, 2, 2
     rows = int(input(f'Number of rows: '))
     for i in range(0, rows):
         for k in range(a, b):
