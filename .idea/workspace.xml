@@ -49,7 +49,7 @@
   </component>
   <component name="RunManager" selected="Python.floyd_triangle">
     <configuration name="factoring_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Pessoal" />
+      <module name="Personal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -70,7 +70,7 @@
       <method v="2" />
     </configuration>
     <configuration name="find_hypotenuse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Pessoal" />
+      <module name="Personal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -91,7 +91,7 @@
       <method v="2" />
     </configuration>
     <configuration name="floyd_triangle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Pessoal" />
+      <module name="Personal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -112,7 +112,7 @@
       <method v="2" />
     </configuration>
     <configuration name="mega_sena_probability" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Pessoal" />
+      <module name="Personal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -133,7 +133,7 @@
       <method v="2" />
     </configuration>
     <configuration name="zenos_paradox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Pessoal" />
+      <module name="Personal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
