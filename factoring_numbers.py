@@ -18,9 +18,11 @@ def factoringNumbers():
             else:
                 cont1 += 1
     for i in range(0, len(l1)):
-        print(f"{l1[i]}^{l2[i]}")
-    print("")
-    return print("It's all folks!")
+        if i == len(l1) - 1:
+            return print(f"{l1[i]}^{l2[i]}")
+        print(f"{l1[i]}^{l2[i]} * ", end="")
 
 
 factoringNumbers()
+print("")
+print("It's All Folks")
