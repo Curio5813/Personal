@@ -12,8 +12,11 @@ def zenosParadox():
         zeno += distance
         cont += 1
         if cont == 1_000:
-            print("This is a convergent arithmetic progression, and its value"
-                  " converges to 100.")
+            text1 = "This is a convergent arithmetic progression, and its value converges to 100."
+            for i in text1:
+                print(i, end="")
+                sleep(0.1)
+            print("")
             sleep(3)
             return print(f"Zeno will never reach the turtle. Altogether Zeno ran {zeno} metres.")
     return print(f"Zeno needs {cont} leaps to reach the turtle and will reach the "
