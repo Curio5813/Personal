@@ -2,7 +2,7 @@
 
 This project is dedicated to learning programming and logic algorithms by solving computing problems. Here I publish some personal ideas about computation problems. 
 
-![](bitcoin_8_bits.jpg)
+![](bitcoin_8_bits.ico)
 
 ## How to use this repository
 
