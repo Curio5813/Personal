@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60308654-b18e-422b-b66c-121201f3170f" name="Changes" comment="Updating files" />
+    <list default="true" id="60308654-b18e-422b-b66c-121201f3170f" name="Changes" comment="Updating files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zenos_paradox.py" beforeDir="false" afterPath="$PROJECT_DIR$/zenos_paradox.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/marcos/Coding/Python/Personal",
+    "last_opened_file_path": "/home/marcos/Coding/Python/CodeAbbey",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -44,7 +47,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pascal_triangle">
+  <component name="RunManager" selected="Python.zenos_paradox">
     <configuration name="factoring_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Personal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,9 +155,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.zenos_paradox" />
         <item itemvalue="Python.pascal_triangle" />
         <item itemvalue="Python.floyd_triangle" />
-        <item itemvalue="Python.zenos_paradox" />
         <item itemvalue="Python.factoring_numbers" />
         <item itemvalue="Python.mega_sena_probability" />
       </list>

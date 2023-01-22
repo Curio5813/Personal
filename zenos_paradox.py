@@ -11,7 +11,7 @@ def zenosParadox():
         turtle += 1
         zeno += distance
         cont += 1
-        if cont == 1_000:
+        if cont == 1_000_000:
             text1 = "This is a convergent arithmetic progression, and its value converges to 100."
             for i in text1:
                 print(i, end="")
