@@ -1,4 +1,4 @@
-# Pessoal
+# Personal
 
 This project is dedicated to learning programming and logic algorithms by solving computing problems. Here I publish some personal ideas about computation problems. 
 
