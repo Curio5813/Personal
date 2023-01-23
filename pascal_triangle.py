@@ -13,8 +13,8 @@ def newtonBinomial():
         for k in range(num + 1):
             if t < 0:
                 break
-            binome = int(factorial(num) / (factorial(num - cont) * factorial(cont)))
-            fat.append(binome)
+            binomial = int(factorial(num) / (factorial(num - cont) * factorial(cont)))
+            fat.append(binomial)
             cont += 1
         p_t.append(fat)
         num -= 1
