@@ -25,4 +25,4 @@ def factoringNumbers():
 
 factoringNumbers()
 print("")
-print("It's All Folks")
+print("This is All Folks")

@@ -47,7 +47,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pascal_triangle">
+  <component name="RunManager" selected="Python.factoring_numbers">
     <configuration name="factoring_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Personal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.factoring_numbers" />
         <item itemvalue="Python.pascal_triangle" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.zenos_paradox" />
         <item itemvalue="Python.floyd_triangle" />
-        <item itemvalue="Python.factoring_numbers" />
       </list>
     </recent_temporary>
   </component>
