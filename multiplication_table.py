@@ -8,6 +8,7 @@ def multiplicationTable():
     for i in range(1, 10 + 1):
         print(f"{number} x {i:>2} = {(number * i):>2}")
     print("")
+    print("This is all folks!")
 
 
 multiplicationTable()
