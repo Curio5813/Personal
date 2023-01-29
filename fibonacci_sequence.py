@@ -4,14 +4,13 @@ def fibonacciSequence():
     specified by the user.
     :return:
     """
-    a, b, p, l = 0, 0, 1, []
+    a, b, = 0, 1
     num = int(input("How many terms do you want have the fibonacci "
                     "sequence? "))
-    for i in range(0, num):
-        a, b, = b, p
-        p = a + b
-        l.append(a)
-    return print(*l)
+    for i in range(num + 1):
+        print(a, end=" ")
+        a, b, = b, a + b
 
 
 fibonacciSequence()
+print("")
