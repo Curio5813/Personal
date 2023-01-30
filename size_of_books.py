@@ -13,13 +13,15 @@ def sizeBooks():
     screen = round(((sqrt(width ** 2 + height ** 2))/10)/inch, 2)
     print(screen)
     if 8 <= screen <= 8.4:
-        print(f"This is a Pocket Book. The best reading is in a screen with 8 inches.")
+        print(f"This is standard size of the Pocket Books. The best reading is in a screen with 8 inches.")
     elif 10 <= screen <= 10.12:
-        print(f"This is a Romance Book. The best reading is in a screen with 10 inches.")
+        print(f"This is standard size of the Romance Books. The best reading is in a screen with 10 inches.")
     elif 11 <= screen <= 11.4:
-        print(f"This is a Childish Book. The best reading is in a screen with 11 inches.")
-    elif 13.9 <= screen <= 14:
-        print(f"This is a Art Book. The best reading is in a screen with 14 inches.")
+        print(f"This is standard size of the Childish Books. The best reading is in a screen with 11 inches.")
+    elif 13 <= screen <= 14:
+        print(f"This is standard size of the Art Books. The best reading is in a screen with 14 inches.")
+    elif 14 <= screen <= 15.5:
+        print(f"This is standard size of the Magazines. The best reading is in a screen with 14 inches.")
     else:
         print("Miscellaneous book formats.")
 
