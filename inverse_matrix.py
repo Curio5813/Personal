@@ -6,7 +6,7 @@ def givenMatrix():
     l1, l2 = [], []
     print('')
     x = int(input('How many rows has the matrix you want to invert? '))
-    y = int(input('How many colums has the matrix you want to invert? '))
+    y = int(input('How many columns has the matrix you want to invert? '))
     for i in range(x):
         for k in range(y):
             num = int(input(f"What's the value for {i + 1}st. row "
