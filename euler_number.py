@@ -1,8 +1,8 @@
 def eulerNumber():
     """
     This function calculates the Euler number, a transcendental number
-    used to compute exponential equations and rate changes that have
-    themselves as derivatives.
+    used in calculating exponential equations and rate changes and which
+    is itself its derivative.
     :return:
     """
     n = int(input("How precisely you want the number: "))
