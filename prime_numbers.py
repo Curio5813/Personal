@@ -1,7 +1,8 @@
 def generatePrimeNumbers():
     """
     This function give a list of prime numbers until a
-    limit setted.
+    limit setted. This algorithm use the idea "The siege
+    of Eratostenes".
     :return:
     """
     p, n_p, lim = [], set(), 1_000_000 + 1
