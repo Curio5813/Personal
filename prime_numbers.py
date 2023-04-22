@@ -5,7 +5,7 @@ def generatePrimeNumbers():
     of Eratostenes".
     :return:
     """
-    p, n_p, lim = [], set(), 1_000_000 + 1
+    p, n_p, lim = [], set(), 100_000 + 1
     for i in range(2, lim):
         if i in n_p:
             continue
