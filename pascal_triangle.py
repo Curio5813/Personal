@@ -8,7 +8,7 @@ def newtonBinomial():
     """
     num = int(input("How many terms will have at the Newton's Binomial: "))
     print('')
-    p_t, fat, cont, t = [], [], 0, num
+    p_t, fat, cont, t, n1 = [], [], 0, num, 0
     for i in range(num + 1):
         for k in range(num + 1):
             if t < 0:
