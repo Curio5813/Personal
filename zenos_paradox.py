@@ -12,7 +12,7 @@ def zenosParadox():
         zeno += distance
         cont += 1
         if cont == 1_000_000_000_000:
-            text1 = "This is a convergent arithmetic progression, and its value converges to 100."
+            text1 = "This is a convergent geometric progression, and its value converges to 100."
             for i in text1:
                 print(i, end="")
                 sleep(0.1)
