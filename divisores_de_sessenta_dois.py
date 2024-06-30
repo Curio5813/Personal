@@ -7,9 +7,6 @@ def divisores_de_sessenta_dois():
     primos, n, cont, modular = [], 62, 1, []
     for i in range(2, 10000 + 1):
         for j in range(2, 10000 + 1):
-            if i == 2:
-                primos.append(i)
-                break
             if i % j == 0 and i == j:
                 primos.append(i)
             if i % j == 0 and i != j:
