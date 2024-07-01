@@ -12,14 +12,14 @@ def divisores_de_sessenta_dois():
             if i % j == 0 and i != j:
                 break
     for i in range(0, len(primos)):
-        if primos[i] > n:
-            cont += 1
-            n = 62 * cont
+        if primos[i] >= n:
+            mod = primos[i] % n
+            if mod not in primos:
+                modular.append(mod)
         else:
             mod = n % primos[i]
-            if mod not in primos and mod not in modular:
+            if mod not in primos:
                 modular.append(mod)
-    modular.sort()
     print(*modular)
 
 
