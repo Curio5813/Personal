@@ -5,13 +5,20 @@ def divisores_de_sessenta_dois():
     prime number not twin prime.
     :return:
     """
-    primos, n, cont, modular, diffs = [], 62, 1, [], []
-    for i in range(2, 10000 + 1):
-        for j in range(2, 10000 + 1):
+    primos, n, cont, modular, gaps, diffs = [], 62, 1, [], [], []
+    for i in range(2, 50000 + 1):
+        for j in range(2, 50000 + 1):
             if i % j == 0 and i == j:
                 primos.append(i)
             if i % j == 0 and i != j:
                 break
+    print(*primos)
+    for i in range(0, len(primos)):
+        if i >= len(primos) - 1:
+            break
+        gaps.append(primos[i + 1] - primos[i])
+    print(*gaps)
+    print(primos[gaps.index(max(gaps))])
     for i in range(0, len(primos)):
         if primos[i] >= n:
             mod = primos[i] % n
