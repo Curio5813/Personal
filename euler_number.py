@@ -9,7 +9,7 @@ def euler_number():
     :return:
     """
     n = float(input("How precisely you want the number: "))
-    e_squared = (1 + (1 / sqrt(n * n * 3))) ** (sqrt(n * n * 3))
+    e_squared = (1 + (1 / sqrt(n))) ** sqrt(n)
     print(e_squared)
     print(e)
 
