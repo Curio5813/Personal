@@ -1,4 +1,4 @@
-from math import sqrt
+from math import sqrt, e
 
 
 def euler_number():
@@ -10,9 +10,8 @@ def euler_number():
     """
     n = float(input("How precisely you want the number: "))
     e_squared = (1 + (1 / sqrt(n * n * 3))) ** (sqrt(n * n * 3))
-    e_intger = (1 + (1 / n)) ** n
     print(e_squared)
-    print(e_intger)
+    print(e)
 
 
 euler_number()
