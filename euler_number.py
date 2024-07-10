@@ -8,8 +8,8 @@ def euler_number():
     is itself its derivative. It's a divergente irracional number.
     :return:
     """
-    n = float(input("How precisely you want the number: "))
-    e_squared = (1 + (1 / sqrt(n))) ** sqrt(n)
+    n = (1 + 1 / 1_000_000 ** (-2))
+    e_squared = (1 + (1 / n)) ** n
     print(e_squared)
     print(e)
 
