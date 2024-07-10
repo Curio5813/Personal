@@ -8,7 +8,7 @@ def euler_number():
     is itself its derivative. It's a divergente irracional number.
     :return:
     """
-    n = (1 + 1 / 1_000_000 ** (-2))
+    n = -10000000
     e_squared = (1 + (1 / n)) ** n
     print(e_squared)
     print(e)
