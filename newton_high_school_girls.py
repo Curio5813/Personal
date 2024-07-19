@@ -6,7 +6,7 @@ def newton_high_school_girls():
     486844829209198613/1263648705811054663/image.
     png?ex=669b0010&is=6699ae90&hm=00a900e7b8a33837ba4
     a6e60c4a43e39756e40da4fb6abe52bc7257ada1d9e63&=&format=webp
-    &quality=lossless
+    &quality=lossless)
 
     :return:
     """
