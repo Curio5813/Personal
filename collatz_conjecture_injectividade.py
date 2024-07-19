@@ -21,12 +21,11 @@ def collatz_conjecture_injectividade():
     print(pares)
     for i in range(0, len(pares)):
         if pares.count(pares[i]) > 1:
-            print("A função não é injetora!")
+            print(pares[i])
+            print("The Collatz Conjecture is not a Injective Function!")
             flag = 1
     if flag == 0:
-        print("A função é injetora!")
-
-
+        print("The Collatz Conjecture is a Injective Function!")
 
 
 collatz_conjecture_injectividade()
