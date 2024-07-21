@@ -8,6 +8,7 @@ def dizima_periodica():
     dizima = input("Digite uma dízima periódica com até duas repetições da parte periódica: ")
     periodo, maior, cont = "", "", 0
     dizima = dizima[::-1]
+    # achando a parte periódica da dízima
     for i in range(0, len(dizima)):
         periodo += dizima[i]
         if len(periodo) >= 2 and dizima.count(periodo) >= 2:
