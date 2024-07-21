@@ -1,6 +1,6 @@
 def collatz_conjecture_injectividade():
     """
-    Collatz Conjecture é a injective function until its reach the value 2.
+    Collatz Conjecture is a bijective function until its reach the value 2.
     In the Collatz Conjecture, both the domain and the image of a function
     that observes such a construction in the plane are biunivocal, that is,
     for each even point there corresponds one and only one point in the
