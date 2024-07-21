@@ -1,34 +1,28 @@
-from collections import defaultdict
-
-
 def dizima_periodica():
     """
-    This functions gives the irreductible fraction
-    from a periodic dizima, called geratriz.
+    Esta função retorna a geratriz, a fração irredutivel, de uma dízima periódica dada.
+    É importante frisar que para muitos caos de uma dízima temos os chamados números
+    não computáveis.
     :return:
     """
     dizima = input("Digite uma dízima periódica com até duas repetições da parte periódica: ")
-    n = len(dizima)
-    substring_cont = defaultdict(int)
-    cont = 0
-    # Gera todas as substrings
-    for i in range(1, n + 1):  # Tamanho da substring
-        for j in range(n - i + 1):  # Indice da substring
-            substring = dizima[j:j + i]
-            substring_cont[substring] += 1
-    maior_substring = ''
-    maior_frequencia = 0
-    for substring, count in substring_cont.items():
-        if count > 1:
-            if len(substring) > len(maior_substring) or (
-                    len(substring) == len(maior_substring) and count > maior_frequencia):
-                maior_substring = substring
-    inteiro1 = dizima.replace(".", "").split(maior_substring)
+    periodo, maior, cont = "", "", 0
+    dizima = dizima[::-1]
+    for i in range(0, len(dizima)):
+        periodo += dizima[i]
+        if len(periodo) >= 2 and dizima.count(periodo) >= 2:
+            maior = periodo
+    periodo = maior
+    periodo = periodo[::-1]
+    print(periodo)
+    dizima = dizima[::-1]
+    inteiro1 = dizima.replace(".", "").split(periodo)
     inteiro1 = inteiro1[0]
     # Acha o tamanho da dízima
-    idx = len(maior_substring)
+    idx = len(periodo)
+    print(len(periodo))
     potencia10_2_n = dizima.split(".")
-    potencia10_2_n = potencia10_2_n[1].split(maior_substring)
+    potencia10_2_n = potencia10_2_n[1].split(periodo)
     # Conta quantas casas decimais existem depois da parte inteira e antes da dízima
     potencia10_2_n = len(potencia10_2_n[0])
     # Acha o inteiro até a primeira repetição da dízima
