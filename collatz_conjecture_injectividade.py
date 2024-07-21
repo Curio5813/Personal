@@ -32,12 +32,12 @@ def collatz_conjecture_injectividade():
             par = []
     print(pares)
     for i in range(0, len(pares)):
-        if pares.count(pares[i]) > 1:
+        if pares.count(pares[i][0]) > 1 or pares.count(pares[i][1]) > 1:
             print(pares[i])
-            print("The Collatz Conjecture is not a Injective Function!")
+            print("The Collatz Conjecture is not a Bijective Function!")
             flag = 1
     if flag == 0:
-        print("The Collatz Conjecture is a Injective Function!")
+        print("The Collatz Conjecture is a Bijective Function!")
 
 
 collatz_conjecture_injectividade()
