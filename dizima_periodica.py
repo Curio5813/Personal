@@ -2,10 +2,10 @@ def dizima_periodica():
     """
     Esta função retorna a geratriz, a fração irredutivel, de uma dízima periódica dada.
     É importante frisar que para muitos caos de uma dízima temos os chamados números
-    não computáveis.
+    não computáveis. De fato, há bem mais números não-computáveis que computávies.
     :return:
     """
-    dizima = input("Digite uma dízima periódica com até 3 repetições do período: ")
+    dizima = input("Digite uma dízima periódica: ")
     periodo, maior, cont, conjunto, idx, vezes, vezes1, flag = "", "", 0, [], 0, 0, 0, 0
     dizima = dizima[::-1]
     # achando a parte periódica da dízima
