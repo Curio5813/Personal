@@ -69,12 +69,19 @@ def dizima_periodica():
                 print("Dízima não computável!")
                 return 0
             # Busca por frações reduzidas
-        for i in range(2, 10_000 + 1):
-            if numerador % i == 0 and denominador % i == 0:
-                while numerador % i == 0 and denominador % i == 0:
-                    numerador //= i
-                    denominador //= i
-                    cont += 1
+            for i in range(2, 10_000 + 1):
+                if numerador % i == 0 and denominador % i == 0:
+                    while numerador % i == 0 and denominador % i == 0:
+                        numerador //= i
+                        denominador //= i
+                        cont += 1
+            if denominador == 1:
+                print("ou", end=" ")
+                print(f"{numerador}")
+            else:
+                if cont > 0:
+                    print("ou", end=" ")
+                    print(f"{numerador}/{denominador}")
     else:
         idx = len(maior)
         periodo = maior
