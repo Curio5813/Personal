@@ -90,8 +90,6 @@ def dizima_periodica():
             potencia10_1 = 10 ** diff
             inteiro2 = inteiro1 + periodo
             potencia10_2 = 10 ** (len(inteiro2) - len(inteiro1))
-            # print(inteiro1, inteiro2)
-            # parte inteira do calculo.
             inteiro1 = int(inteiro1)
             inteiro2 = int(inteiro2)
             # Calcula o numerador
@@ -122,8 +120,6 @@ def dizima_periodica():
             potencia10_1 = 10 ** diff
             inteiro2 = inteiro1 + periodo
             potencia10_2 = 10 ** (diff + len(periodo))
-            # print(inteiro1, inteiro2)
-            # parte inteira do calculo.
             inteiro1 = int(inteiro1)
             inteiro2 = int(inteiro2)
             # Calcula o numerador
