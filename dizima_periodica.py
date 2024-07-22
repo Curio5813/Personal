@@ -65,6 +65,9 @@ def dizima_periodica():
             # printa a geratriz da dízima
             print("A Geratriz é:")
             print(f"{numerador}/{denominador}", end=" ")
+            if denominador < 1:
+                print("Dízima não computável!")
+                return 0
             # Busca por frações reduzidas
         for i in range(2, 10_000 + 1):
             if numerador % i == 0 and denominador % i == 0:
@@ -99,6 +102,9 @@ def dizima_periodica():
             # printa a geratriz da dízima
             print("A Geratriz é:")
             print(f"{numerador}/{denominador}", end=" ")
+            if denominador < 1:
+                print("Dízima não computável!")
+                return 0
             # Busca por frações reduzidas
             for i in range(2, 10_000 + 1):
                 if numerador % i == 0 and denominador % i == 0:
@@ -129,6 +135,9 @@ def dizima_periodica():
             # printa a geratriz da dízima
             print("A Geratriz é:")
             print(f"{numerador}/{denominador}", end=" ")
+            if denominador < 1:
+                print("Dízima não computável!")
+                return 0
             # Busca por frações reduzidas
             for i in range(2, 10_000 + 1):
                 if numerador % i == 0 and denominador % i == 0:
