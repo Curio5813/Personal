@@ -2,7 +2,7 @@ def dizima_periodica():
     """
     Esta função retorna a geratriz, a fração irredutivel, de uma dízima periódica dada.
     É importante frisar que para muitos casos de uma dízima temos os chamados números
-    não computáveis. De fato, há bem mais números não-computáveis que computávies.
+    não computáveis. De fato, há bem mais números não-computáveis que computáveis.
     :return:
     """
     while True:
