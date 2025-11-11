@@ -1,5 +1,5 @@
 def numeros_tristes():
-    limite = 1000
+    limite = 10000
     for n in range(1, limite + 1):
         soma = 0
         divisores, num = [], n
@@ -15,7 +15,6 @@ def numeros_tristes():
                     break
             if primo:
                 print(f"{num} é triste → soma={soma}")
-                print(*divisores)
 
 
 numeros_tristes()
