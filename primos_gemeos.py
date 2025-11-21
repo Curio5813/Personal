@@ -31,6 +31,5 @@ def primos_gemeos():
     print(f": Maior Distância = {distancias[maior_idx]}")
 
 
-
 if __name__ == '__main__':
     primos_gemeos()
