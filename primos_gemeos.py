@@ -25,7 +25,7 @@ def primos_gemeos():
                 distancias.append(primos[j] - gemeos[i][0])
                 break
     print("Primo 1 - Primo 2 -> Distância ao próximo número primo:")
-    for i in range(len(gemeos)):
+    for i in range(len(distancias)):
         print(f"{gemeos[i][1]:>5} -{gemeos[i][0]:>5} -> {distancias[i]}")
     maior_idx = distancias.index(max(distancias))
     print(*gemeos[maior_idx], end="")
