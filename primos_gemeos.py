@@ -4,7 +4,7 @@ def primos_gemeos():
     gêmeos ou não.
     :return:
     """
-    n = int(input("Digite o limte: "))
+    n = int(input("Digite o limite: "))
     primos, gemeos, temp, distancias = [], [], [], []
     for i in range(2, n + 1):
         for j in range(2, n + 1):
