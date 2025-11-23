@@ -8,13 +8,13 @@ def numeros_tristes():
                 divisores.append(d)
                 soma += d
         if soma > 1:
-            primo = True
+            primo, flag = True, True
             for i in range(2, int(soma ** 0.5) + 1):
                 if soma % i == 0:
                     primo = False
                     break
             if primo:
-                print(f"{num} é triste → soma={soma}")
+                print(f"{num} é triste → soma={soma}.")
 
 
 numeros_tristes()
