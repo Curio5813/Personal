@@ -5,13 +5,14 @@ def primos_gemeos():
     :return:
     """
     n = int(input("Digite o limite: "))
-    primos, gemeos, temp, distancias = [], [], [], []
+    nao_primos, primos, gemeos, temp, distancias = set(), [], [], [], []
     for i in range(2, n + 1):
-        for j in range(2, n + 1):
-            if i % j == 0 and i != j:
-                break
-            if i % j == 0 and i == j:
-                primos.append(i)
+        if i in nao_primos:
+            continue
+        for j in range(i * 2, n + 1, i):
+            nao_primos.add(j)
+        else:
+            primos.append(i)
     for i in range(len(primos)):
         for j in range(len(primos)):
             if i != j and primos[i] - primos[j] == 2:
