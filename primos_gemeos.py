@@ -13,17 +13,16 @@ def primos_gemeos():
             nao_primos.add(j)
         else:
             primos.append(i)
-    for i in range(len(primos)):
-        for j in range(len(primos)):
-            if i != j and primos[i] - primos[j] == 2:
-                temp.append(primos[i])
-                temp.append(primos[j])
-                gemeos.append(temp)
-                temp = []
+    for i in range(1, len(primos)):
+        if primos[i] - primos[i - 1] == 2:
+            temp.append(primos[i - 1])
+            temp.append(primos[i])
+            gemeos.append(temp)
+            temp = []
     for i in range(len(gemeos)):
         for j in range(len(primos)):
-            if gemeos[i][0] < primos[j]:
-                distancias.append(primos[j] - gemeos[i][0])
+            if gemeos[i][1] < primos[j]:
+                distancias.append(primos[j] - gemeos[i][1])
                 break
     print("Primo 1 - Primo 2 -> Distância ao próximo número primo:")
     for i in range(len(distancias)):
