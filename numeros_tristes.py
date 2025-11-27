@@ -28,4 +28,5 @@ def numeros_tristes():
     print(f"Maior diferença encontrada {max(diff)}")
 
 
-numeros_tristes()
+if __name__ == "__main__":
+    numeros_tristes()
