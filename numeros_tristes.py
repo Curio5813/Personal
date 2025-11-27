@@ -1,5 +1,6 @@
 def numeros_tristes():
-    limite = 10000
+    limite = int(input("Limite: "))
+    pares = []
     for n in range(1, limite + 1):
         soma = 0
         divisores, num = [], n
@@ -15,6 +16,16 @@ def numeros_tristes():
                     break
             if primo:
                 print(f"{num} é triste → soma={soma}.")
+                if n % 2 == 0:
+                    pares.append(n)
+    print("===================================================================")
+    print("Diferença entre um numero triste par e o próximo numero triste par:")
+    print("===================================================================")
+    diff = []
+    for i in range(1, len(pares)):
+        print(pares[i] - pares[i - 1])
+        diff.append(pares[i] - pares[i - 1])
+    print(f"Maior diferença encontrada {max(diff)}")
 
 
 numeros_tristes()
