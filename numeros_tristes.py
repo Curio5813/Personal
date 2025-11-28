@@ -25,6 +25,7 @@ def numeros_tristes():
     for i in range(1, len(pares)):
         print(pares[i] - pares[i - 1])
         diff.append(pares[i] - pares[i - 1])
+    print(len(pares))
     print(f"Maior diferença encontrada entre números tristes pares: {max(diff)}")
 
 
