@@ -6,6 +6,7 @@ def collatz_conjecture():
     lc, cont = [], 0
     num = int(input("Digit a integer positive number: "))
     while num != 1:
+        print(num)
         if num % 2 == 0:
             num //= 2
         else:
@@ -13,7 +14,6 @@ def collatz_conjecture():
         lc.append(num)
         cont += 1
     print(cont)
-    print(*lc)
 
 
 collatz_conjecture()
