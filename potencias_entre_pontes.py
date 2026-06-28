@@ -1,5 +1,9 @@
 import math
+from statistics import median
+from time import time
 
+
+tempo_inicial = time()
 
 def potencias_entre_pontes():
     """
@@ -36,57 +40,84 @@ if __name__ == "__main__":
     print("=== MENU DE TESTES ===")
     print("1 - Contar primos no intervalo (300k a 400k)")
     print("2 - Procurar quadrados perfeitos na chave de 50 dígitos")
-    opcao = input("Escolha uma opção (1 á 9): ")
+    opcao = input("\nEscolha uma opção (1 á 9): ")
     while opcao == 0:
         break
     else:
         if opcao in "123456789":
-            modulo_50_digitos = input("\nDigite a chave pública aqui: ")
+            # 100000000000031 100000000001087
+            chaves_privadas = list(map(int, input("\nDigite os dois primos: ").split()))
+            modulo_50_digitos = str(chaves_privadas[0] * chaves_privadas[1])
+            print(f"A Chave Pública é {modulo_50_digitos}")
             quadrados_perfeitos = encontrar_quadrados_subnumeros(modulo_50_digitos)
 
-            print("\nLista de listas (ordenada por valor decrescente):")
+            print("\nValores mais próximos do alvo:")
             modulacao, chave = [], 0
 
             modulo_inteiro = int(modulo_50_digitos)
             tam_chave = len(modulo_50_digitos)
+            expoente = int((math.ceil(tam_chave / 2)))
 
+            rigor = 0
             for j in range(0, len(quadrados_perfeitos)):
+
                 for k in range(0, 1):
-                    tentativa_primo = int(quadrados_perfeitos[j][3] * math.sqrt(quadrados_perfeitos[j][1]) * math.sqrt(quadrados_perfeitos[j][2]))
+                    tentativa_primo = int((quadrados_perfeitos[j][3] * math.sqrt(quadrados_perfeitos[j][1]) *
+                                       math.sqrt(quadrados_perfeitos[j][2])))
+                    print(tentativa_primo)
                     rigor = len(str(tentativa_primo))
-
-                    # Ajuste na exponenciação para evitar floats (divisão inteira //)
-                    expoente = int((tam_chave // 2) - rigor)
-                    if expoente > 0:
-                        modulacao.append(tentativa_primo * 10 ** expoente)
+                    if tentativa_primo == 0:
+                        break
                     else:
-                        modulacao.append(int(tentativa_primo))
+                        modulacao.append(tentativa_primo ** (rigor))
             modulacao.sort()
-            modulacao.reverse()
-            # print(modulacao)
-            for j in range(0, len(modulacao)):
-                base_inicial = modulacao[j]
-                inicio_teste = 2
+            print(modulacao)
+            minimo = min(modulacao)
+            mediana = int(median(modulacao))
+            maximo = max(modulacao)
+            print(minimo, mediana, maximo)
+            print(sum(modulacao) ** 2   )
 
-                # Otimização 1: Se o início for par, transforma em ímpar para o ciclo
-                if inicio_teste % 2 == 0 and inicio_teste > 2:
-                    inicio_teste += 1
+            flag = False
 
-                # Otimização 2: Limitamos a busca a um raio realista (ex: 5 milhões de números)
-                # Ir além disso em Python puro sem Crivo vai travar o processador
-                limite_busca = len(modulo_50_digitos) // 2
-
-                for k in range(inicio_teste, base_inicial * limite_busca):
-                    # print(k)
-                    if modulo_inteiro % k == 0:
-                        chave = k
-                        print(chave)
+            for j in range(3, 100_000 + 1, 2):
+                if modulo_inteiro % j == 0:
+                    chave = j
+                    flag = True
+                    break
+            if not flag:
+                for j in range(minimo + 1, minimo * 10, 2):
+                    if modulo_inteiro % j == 0:
+                        chave = j
+                        flag = True
+                        break
+            if not flag:
+                for j in range(maximo + 1, maximo // 10, -2):
+                    if modulo_inteiro % j == 0:
+                        chave = j
+                        flag = True
+                        break
+            if not flag:
+                for j in range(mediana + 1, int(minimo * (5/4)), 2):
+                    if modulo_inteiro % j == 0:
+                        chave = j
+                        flag = True
+                        break
+            if not flag:
+                for j in range(mediana + 1, int(minimo * (5/4)), -2):
+                    if modulo_inteiro % j == 0:
+                        chave = j
+                        flag = True
                         break
 
-                if chave != 0:
-                    break
+            print(f"Chave1: {chave} e Chave2: {modulo_inteiro // chave}.")
 
-            if chave != 0:
-                print(f"Chave1: {chave} e Chave2: {modulo_inteiro // chave}")
-            else:
-                print(f"Chave1: {chave} e Chave2: Fatores não encontrados no raio de busca.")
+tempo_final = time()
+
+tempo_total = tempo_final - tempo_inicial
+print(tempo_total)
+
+
+# 321698972922577370385350057131
+# 383147160123599
+# 839622490791269
