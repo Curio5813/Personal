@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2a4dca9-8730-49e7-b1c7-62b1572534f3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Curio5813&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Curio5813/Pessoal.git&quot;,
+    &quot;accountId&quot;: &quot;49a5025c-76c8-45fd-80a6-ba149f1c73ef&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/potencias_entre_pontes.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2h3ENsoaPXaRXid7qq3IKTzinAq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python..executor&quot;: &quot;Run&quot;,
+    &quot;Python.aposentadoria.executor&quot;: &quot;Run&quot;,
+    &quot;Python.capitalizacoes_instantaneas_vs_composta.executor&quot;: &quot;Run&quot;,
+    &quot;Python.collatz_conjecture.executor&quot;: &quot;Run&quot;,
+    &quot;Python.collatz_conjecture_injectividade.executor&quot;: &quot;Run&quot;,
+    &quot;Python.congruencia_de_quadrados.executor&quot;: &quot;Run&quot;,
+    &quot;Python.divisores_de_sessenta_dois.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dizima_periodica.executor&quot;: &quot;Run&quot;,
+    &quot;Python.equacao_cubica_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.equacao_cubica_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.euler_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Python.factorial_question_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fibonacci_sequence.executor&quot;: &quot;Run&quot;,
+    &quot;Python.limites0001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logarithmic_equation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logarithmic_equation_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logaritmos_001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mandelbrot_fractal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.math_olympiad_001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.math_olympiad_002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.math_olympiad_003.executor&quot;: &quot;Run&quot;,
+    &quot;Python.math_olympiad_004.executor&quot;: &quot;Run&quot;,
+    &quot;Python.math_olympiad_005.executor&quot;: &quot;Run&quot;,
+    &quot;Python.math_olympiad_006.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_first_tkinter_program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.newton_high_school_girls.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numeros_perfeitos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numeros_tristes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.odd_perfect_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pascal_triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.potencias_entre_pontes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.primos_gemeos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.problema_150.executor&quot;: &quot;Run&quot;,
+    &quot;Python.problema_152.executor&quot;: &quot;Run&quot;,
+    &quot;Python.problema_494.executor&quot;: &quot;Run&quot;,
+    &quot;Python.radical_problem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.razao_soma_numeros_irracionais_racionais.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sequencia_de_kaprekar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.soma_dos_termos_de_uma_pa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.square_root_of_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.square_root_of_a_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teste.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tijolo_de_euler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tocando_musica.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tocando_nininho.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zenos_paradox.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/marcos/Computacao/Python/Personal&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FME/Vol_11" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.capitalizacoes_instantaneas_vs_composta">
+    <configuration type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Personal" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/potencias_entre_pontes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="capitalizacoes_instantaneas_vs_composta" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Personal" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/capitalizacoes_instantaneas_vs_composta.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="congruencia_de_quadrados" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Personal" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/congruencia_de_quadrados.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="razao_soma_numeros_irracionais_racionais" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Personal" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/razao_soma_numeros_irracionais_racionais.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Personal" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.capitalizacoes_instantaneas_vs_composta" />
+      <item itemvalue="Python.congruencia_de_quadrados" />
+      <item itemvalue="Python.razao_soma_numeros_irracionais_racionais" />
+      <item itemvalue="Python.teste" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.capitalizacoes_instantaneas_vs_composta" />
+        <item itemvalue="Python.teste" />
+        <item itemvalue="Python.congruencia_de_quadrados" />
+        <item itemvalue="Python.razao_soma_numeros_irracionais_racionais" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-245168a56dbd-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.25134.203" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2a4dca9-8730-49e7-b1c7-62b1572534f3" name="Changes" comment="" />
+      <created>1716814324284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716814324284</updated>
+      <workItem from="1757357296909" duration="2934000" />
+      <workItem from="1757426841441" duration="614000" />
+      <workItem from="1757518679269" duration="8000" />
+      <workItem from="1783022890299" duration="789000" />
+      <workItem from="1783023689769" duration="22000" />
+      <workItem from="1783024047537" duration="91000" />
+      <workItem from="1783024173591" duration="530000" />
+      <workItem from="1783024733302" duration="1022000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Personal$tocando_nininho.coverage" NAME="tocando_musica Coverage Results" MODIFIED="1757360414168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Personal$unnamed.coverage" NAME=" Coverage Results" MODIFIED="1783023471457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Personal$capitalizacoes_instantaneas_vs_composta.coverage" NAME="capitalizacoes_instantaneas_vs_composta Coverage Results" MODIFIED="1783023521885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
