@@ -5,7 +5,11 @@ def raiz_quadrada_algoritmo_de_newton():
     """
     num = int(input())
     raiz = 0
-    if num == 1:
+    if num < 0:
+        print('Numero negativo. Não existem raízes reais.')
+    elif num == 0:
+        print(num)
+    elif num == 1:
         print(num)
     else:
         a = num - 1
