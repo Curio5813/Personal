@@ -12,7 +12,7 @@ def raiz_quadrada_algoritmo_de_newton():
     elif num == 1:
         print(num)
     else:
-        a = num - 1
+        a = num
         for i in range(20):
             raiz = (1 / 2) * (a + num / a)
             a = raiz
